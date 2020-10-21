@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test01",
+      "setup": "sudo apt-get install golang",
+      "run": "go test -cover ./...",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
